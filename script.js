@@ -69,5 +69,5 @@ console.log(activePoints.length);
 
 
 overlayOpen.addEventListener('click', hideAll);
- 
+console.log('hello world');
        
