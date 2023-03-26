@@ -1,0 +1,49 @@
+.cursor_blink {
+    border-left: 0.25rem solid white;
+    animation: blink 500ms steps(18) infinite; 
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.first {
+    display: block;
+    max-width: 600px;
+    color: #fdfa20;
+}
+
+.second {
+    display: block;
+    max-width: 600px;
+    color: #2533ff;
+}
+
+.two {
+    color: rgb(196, 223, 166); 
+}
+
+.block {
+    outline: 2px solid #663399;
+    padding: 2rem;
+    max-width: 600px;
+    margin: 10rem auto;
+}
+
+.paste-2 {
+    max-width: 600px;
+    outline: 2px solid cyan;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+
+
+@keyframes blink {
+    to {
+       opacity: 0%;
+    }
+}
